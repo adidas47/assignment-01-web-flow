@@ -265,3 +265,73 @@ nav li a{
     width: 840px;
     border-radius: 50px;
 }
+
+.newsletter-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+form .basic-info label {
+    display: block;
+    align-self: ;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin: o 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.newsletter-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    width: 50%;
+    gap: 50px;
+}
+
+
+
+.footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
