@@ -3,58 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B12A01-landing-launchpad</title>
-    <link rel="stylesheet" href="styles/landing-launchpad.css">
+    <title>Web Flow demo</title>
+    <link rel="stylesheet" href="styles/web-flow.css">
 </head>
 <body>
-    <header class="header">
-        <nav>
-            <h3 class="nav-title inter-black"><span class="blue">LOGO</span></h3>
-            <ul>
-                <li><a class="raleway-bold" href=""></a><button class="btn-primary btn-primary:hover">Sign Up</button></li>
-            </ul>
-        </nav>
-        <div class="banner">
-            <div class="banner-content">
-                <h1 style="margin-bottom: -15px;" class="banner-title black raleway-bold">Cool dark UI Template for</h1>
-                <h1 style="margin-top: -15px;" class="banner-title black raleway-bold">Webflow Agencies!</h1>
-                <button class="btn-primary btn-primary:hover">Stay Focused</button>
-            </div>
+    
+    <!-- The Banner Part -->
+    
+    <header class="banner-container">
+        
+        <div class="nav-container">
+            <nav>
+                <h3 class="nav-title inter-black">WebFlow</h3>
+                <button class="sign-up-btn btn:hover raleway-bold">Sign Up</button>
+            </nav>
+        </div>
+
+        <div class="banner-content">
+            <h1 class="first-banner-title raleway-bold">Cool Dark UI Template for Webflow Agencies!</h1>
+            <!-- <h1 class="second-banner-title raleway-bold">Webflow Agencies!</h1> -->
+            <button class="stay-focused-btn btn:hover raleway-bold">Stay Focused</button>
         </div>
     </header>
-    <main class="main">
-        <div class="action raleway-bold">
-            <h3 style="margin-bottom: -50px;" class="action-title">See It in Action</h3>
-            <h6 style="margin-bottom: -10px;" class="action-subtitle">Explore the live preview and imagine your</h6>
-            <h6 style="margin-top: -10px;" class="action-subtitle">brand in this bold new look</h6>
-            <button class="btn-primary btn-primary:hover">Launch Live Preview</button>
-            <img src="../B12A01/B12A01-landing-launchpad/Assets/wc-mini.png">
-        </div>  
+<main>
+    
+        <!-- The Action Part -->
+    
+        <section class="action-container">
+            <div class="action-box">
+                <h1 class="action-title raleway-bold">See It in Action</h1>
+                <p class="action-subtitle raleway-regular">Explore the live preview and imagine your brand in this bold new look.</p>
+                <button class="launch-live-preview-btn btn:hover raleway-bold">Launch Live Preview</button>
+            </div>
+            <div>
+                <img src="./Assets/wc-mini.png" alt="">
+            </div>
+        </section>
+
+        <!-- The Productive User Part -->
+
+        <section class="user-container">
+            <div class="user-title">
+                <p class="raleway-bold">Joined Thosands of Productive Users</p>
+            </div>
+            <div class="status-container">
+                <div class="user-status">
+                    <p class="status-number inter-bold">50K</p>
+                    <p class="status-description inter-regular">Active Users</p>
+                </div>
+                <div class="user-status">
+                    <p class="status-number inter-bold">2M+</p>
+                    <p class="status-description inter-regular">Focus Sessions</p>
+                </div>
+                <div class="user-status">
+                    <p class="status-number inter-bold">95%</p>
+                    <p class="status-description inter-regular">Satisfaction Rate</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Review Part -->
+
+        <section>
+            <p class="review-title raleway-bold">What our users say?</p>
+            <section class="review-section">
+            <div>
+            <div class="review-card">
+                <p class="rating">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                </p>
+                <p class="review-statement raleway-bold">Worth the Investment</p>
+                <p class="review-description raleway-regular">"This template is very unique and eye pleasing"</p>
+                <div class="profile">
+                    <div>
+                        <img src="./Assets/avatar.png" alt="">
+                    </div>
+                    <div>
+                    <p class="author raleway-bold">Jane Copper<br><span class="date raleway-regular">12-07-2021</span></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div>
+            <div class="review-card">
+                <p class="rating">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                </p>
+                <p class="review-statement raleway-bold">Just Love It</p>
+                <p class="review-description raleway-regular">Got a strong feeling about it while exploring for the first time</p>
+                <div class="profile">
+                    <div>
+                        <img src="./Assets/avatar.png" alt="">
+                    </div>
+                    <div>
+                    <p class="author raleway-bold">David Brown<br><span class="date raleway-regular">18-05-2022</span></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div>
+            <div class="review-card">
+                <p class="rating">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                    <img src="./Assets/icon-star.png" alt="">
+                </p>
+                <p class="review-statement raleway-bold">Excellent</p>
+                <p class="review-description raleway-regular">One of the finnest template design I have seen so far</p>
+                <div class="profile">
+                    <div>
+                        <img src="./Assets/avatar.png" alt="">
+                    </div>
+                    <div>
+                    <p class="author raleway-bold">Amy Jackson<br><span class="date raleway-regular">05-03-2023</span></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </section>
+        </section>
+
+        <!-- The Focus Part -->
+
+        <section class="focus-container">
+            <div class="focus-content">
+                <h2 class="focus-title raleway-bold">Ready to focus better?</h2>
+                <p class="focus-description raleway-regular">Join our community of focused users and elevate your productivity.</p>
+                <button class="get-started-for-free-btn btn:hover raleway-medium">Get Started For Free</button>
+            </div>
+            <div>
+                <img src="./Assets/wc-big.png" alt="">
+            </div>
+        </section>
+
+        <!-- The Newsletter Part -->
+
+        <section class="newsletter-container">
+            <div class="newsletter-column">
+                <p class="newsletter-title raleway-bold">Let's Get in Touch</p>
+            </div>
+            <div class="newsletter-column">
+                <form>    
+                        <label class="inter-medium" for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                        
+                        <label class="inter-medium" for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="full name" required>
+                        
+                        <label class="inter-medium" for="message">Message</label>
+                        <textarea class="inter-regular" id="message" name="message" cols="68" rows="5" placeholder="write your message...."></textarea>
+                        
+                        <button type="submit" class="get-in-touch-btn btn:hover">Get in Touch</button>
+                </form>
+            </div>
+                 
     </main>
-    <footer class="footer">
-        <div class="footer-column">Let's Get in</div>
-        <div class="footer-column">Touch</div>
-        <form action="">
-            <h4>Email</h2>
-            <input type="email" name="" id="" placeholder="example@email.com">
-            <h4>Name</h2>
-            <input type="text" name="" id="" placeholder="full name">
-            <h4>Message</h2>
-            <textarea name="" id="" cols="30" rows="10" placeholder="write your message"></textarea>
-            <button class="btn-primary btn-primary:hover">Get in Touch</button>
-        </form>
-        <div class="footer-content">
-            <h1 class="footer-title inter-black">LOGO</h3>
-            <p class="footer-text raleway-bold">Ready to elevate your online presence? Contact us today to discuss</p>
-            <p class="footer-text raleway-bold">your project and discover how we can bring your vision to life.</p>
-            <ul class="footer-links">
-                <li><a class="raleway-bold" href="">Home</a></li>
-                <li><a class="raleway-bold" href="">About</a></li>
-                <li><a class="raleway-bold" href="">How it Works</a></li>
-                <li><a class="raleway-bold" href="">Services</a></li>
-            </ul>
-        </div>
+
+    <!-- The Footer Part -->
+
+    <footer class="footer-container">
         
+        <div class="footer-title inter-black">WebFlex</div>
+        <div class="footer-description inter-regular">
+            Ready to elevate your online presence? Contact us today to discuss 
+            your project and discover how we can bring your vision to life.
+        </div>
+        <nav class="footer-nav inter-regular">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">How it Works</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </nav>
+    </div>
+
     </footer>
 </body>
-</html
+</html>
